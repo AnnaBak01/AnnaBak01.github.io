@@ -1,0 +1,284 @@
+/* colors 
+#f9f2f5 - white
+#e3d5d9 - grey
+#d28f7b - pink
+#273742 - navy
+*/
+
+
+body {
+  background-color: #f9f2f5;
+  color: #273742;
+  font-size: larger;
+  overflow-x: hidden;
+}
+
+.pink {
+  color: #d28f7b !important;
+}
+
+.white {
+  color: #f9f2f5;
+}
+
+.grey {
+  color: #e3d5d9 !important;
+}
+
+#decs {
+  width: 300px
+}
+
+a {
+  color: #273742;
+  text-decoration: none;
+}
+
+.list-group {
+  position: fixed;
+  bottom: 0;
+  border-left: #d28f7b solid 2px;
+  margin-left: 10px;
+  padding-bottom: 150px;
+  border-radius: 0 !important;
+}
+
+.email {
+  position: fixed;
+  bottom: 100px;
+  right: -120px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  border-top: #d28f7b solid 2px;
+  padding-right: 140px;
+  border-radius: 0 !important;
+}
+
+.list-group-item {
+  background-color: transparent;
+  width: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f2f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #273742;
+  border-radius: 5px;
+  border: 1px solid #e3d5d9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4e5c;
+}
+
+.section {
+  margin-top: 13vw;
+}
+
+button {
+  border: 1px solid #d28f7b;
+  padding: 0 20px;
+  transition: 0.5s;
+  background-color: #f9f2f5;
+}
+
+button:hover {
+  background-color: #d28f7b;
+  color: #f9f2f5 !important;
+}
+
+
+b {
+  color: #d28f7b !important;
+}
+
+.experience li {
+  padding: 0.5em 5px;
+  list-style: none;
+  border-left: #d28f7b solid 2px;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+.experience li:hover,
+.active {
+  transition: 0.3s;
+  background-color: #d28f7b15;
+}
+
+#cv {
+  border: 1px solid #d28f7b;
+  padding: 0 20px;
+  transition: 0.5s;
+}
+
+#cv:hover {
+  background-color: #d28f7b;
+  color: white;
+}
+
+.portfolio-element {
+  width: 100%;
+  object-fit: contain;
+  border: 1px solid #d28f7b;
+  padding: 4px;
+  transition: 1s;
+}
+
+.portfolio-element:hover {
+  opacity: 90%;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.header {
+  max-width: 700px;
+  margin-top: 5em;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 480px) {
+  .section {
+    margin-top: 50vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .section {
+    margin-top: 50vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    margin-top: 35vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section {
+    margin-top: 20vw;
+  }
+}
+
+@media (min-width: 1201px) {
+  .section {
+    margin-top: 30vw;
+  }
+}
+
+@media (min-width: 1401px) {
+  .section {
+    margin-top: 25vw;
+  }
+}
+
+#shape1 {
+  position: fixed;
+  top: 7vw;
+  left: -35vw;
+  width: 75vw;
+  z-index: -2;
+}
+
+#shape2 {
+  position: fixed;
+  top: -25vw;
+  right: -25vw;
+  width: 75vw;
+  z-index: -2;
+}
+
+#shape3 {
+  position: fixed;
+  top: -30vw;
+  right: -50vw;
+  height: 105vw;
+  z-index: -2;
+}
+
+#shape4 {
+  position: absolute;
+  top: -28vw;
+  left: 10vw;
+  height: 40vw;
+  z-index: -2;
+}
+
+.display-4 {
+  font-size: calc(5.5rem + 2.7vw);
+}
+
+.display-3 {
+  font-size: calc(4rem + 3.3vw);
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 0.5s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
