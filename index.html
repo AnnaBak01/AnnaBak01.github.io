@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.108.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="main.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script defer src="scroll.js"></script>
+</head>
+
+<body onload="move();">
+  <div class="socials">
+    <ul class="list-group">
+      <li class="list-group-item border-0"><a href="https://www.facebook.com/ania.bak.773"><img src="img/facebook-f.svg"
+            alt="fb"></a></li>
+      <li class="list-group-item border-0"><a href="https://github.com/AnnaBak01"><img src="img/github.svg"
+            alt="github"></li></a>
+      <!--<li class="list-group-item border-0"><a href="http://"><img src="linkedin-in.svg" alt="linkedin"></li></a>-->
+    </ul>
+  </div>
+
+  <div class="email">
+    <span class="verticaltext">aniabak44@gmail.com</a></span>
+  </div>
+
+  <div class="container py-3 hidden">
+    <header data-aos="fade-bottom">
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 text-dark text-decoration-none fw-light" href="#section1">ABOUT ME</a>
+          <a class="me-3 py-2 text-dark text-decoration-none fw-light" href="#section2">EXPERIENCE</a>
+          <a class="me-3 py-2 text-dark text-decoration-none fw-light" href="#section3">PORTFOLIO</a>
+          <a class="me-3 py-2 text-dark text-decoration-none pink" href="#section4"><b>CONTACT</b></a>
+          <a class="p-0 pt-2 px-3 text-dark text-decoration-none pink" href="CV.pdf" target="_blank">
+            <div id="cv">CV</div>
+          </a>
+        </nav>
+      </div>
+
+      <div class="header hidden">
+        <span class="pink">- H e l l o -</span>
+        <h1 class="display-4 ">My name is <span class="fw-normal display-3">Anna Bąk</span></h1>
+        <span>I am a graphic designer and front-end developer. Currently studying law combined with IT in
+          Warsaw.</span>
+      </div>
+    </header>
+
+    <main>
+      <div class="container hidden" id="section1" data-aos="slide-up">
+        <div class="row section">
+          <div class="col-5 d-flex align-items-center"><img src="img/portrait.png" width="100%">
+          </div>
+          <div class="col-7">
+            <p class="display-6">ABOUT ME</p><span>Hi! <b>My name is Anna</b>, I am 21 years old and I love
+              creating
+              things that live on the internet. My interest in web development started back in
+              2015 when I started my online blog and decided to fully customize it.
+              <br><br>
+              Currently I am a <b>second-year student</b> at Cardinal Stefan Wyszyński University in Warsaw. I can
+              be described in three words: consistent, creative and ambitious. I started my first contingent jobs
+              about creating computer graphics and websites in the first classes of high school. I want to <b>develop my
+                skills</b> and take on further challenges.</span> <br><br>
+            What I am working on right now:
+            <div class="row">
+              <div class="col-6">
+                <ul>
+                  <li>Making <b>Wordpress</b> templates</li>
+                  <li>Learning Adroid Studio</li>
+                  <li><b>SEO</b></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Getting started with <b>Angular</b></li>
+                  <li>Learnig <b>After Effect</b></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row section" id="section2" class="section--yellow wow fadeInRight" data-wow-delay="0.1s"
+          style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+          <div class="col-12 my-3 hidden">
+            <p class="display-6">WHERE I HAVE WORKED</p>
+          </div>
+          <div class="col-3">
+            <ul class="experience hidden">
+              <li onclick="arkonsoft()" id="arkonsoft" class="active">ArkonSoft</li>
+              <li onclick="netradus()" id="netradus" class="">Netradus</li>
+              <li onclick="adastra()" id="adastra" class="">Ad Astra</li>
+              <li onclick="contingent()" id="contingent" class="mt-3">Contingent jobs</li>
+              <li onclick="competitions()" id="competitions" class="">Competitions</li>
+            </ul>
+          </div>
+          <div class="col-9">
+            <p id="year-company" class="h4 hidden"><b>2019:</b> ArkonSoft sp. z o.o.</p>
+            <p id="position" class="text-muted hidden">Intern</p>
+            <div id="decription-work" class="hidden">
+              <b>•</b> Making personalised graphics<br>
+              <b>•</b> Studying basics of web designing<br>
+              <b>•</b> Learning the practices of the profession under the supervision - technologies they are using,
+              programming libraries and graphics<br>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <div class="row section hidden" id="section3">
+      <p class="display-6">MY WORKS</p>
+      <div class="col-6">
+        <a href="http://dwordziekanow.pl"><img src="img/website.png" alt="website screenshot"
+            class="portfolio-element"></a>
+        <a href="http://adastrabiuro.pl"><img src="img/website2.png" alt="website screenshot"
+            class="my-2 portfolio-element"></a>
+        <div class="row">
+          <div class="col-6">
+            <img src="img/newyear.jpg" alt="graphic example" class="my-2 portfolio-element"
+              onmouseover="photoChange(this)" onmouseout="photoBack(this)">
+          </div>
+          <div class="col-6">
+            <img src="img/menu.jpg" alt="graphic example" class="my-2 portfolio-element" onmouseover="photoChange(this)"
+              onmouseout="photoBack(this)">
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="img/Katalog.jpg" alt="graphic example" class="my-2 portfolio-element" onmouseover="photoChange(this)"
+          onmouseout="photoBack(this)">
+        <img src="img/img.jpg" alt="graphic example" class="my-2 portfolio-element" onmouseover="photoChange(this)"
+          onmouseout="photoBack(this)">
+      </div>
+      <div class="col-12">
+        <img src="img/banner.jpg" alt="graphic example" class="my-2 portfolio-element" onmouseover="photoChange(this)"
+          onmouseout="photoBack(this)">
+      </div>
+    </div>
+
+    <div class="section text-center hidden" id="section4">
+      <p class="display-6">GET IN TOUCH</p>
+      <p>If you have a question or want to say hello, I’ll try my best to get back to you!</p>
+      <button class="font-bold text-muted">Contact Me</button>
+    </div>
+    <div class="section"></div>
+    <div class="text-center font-monospace hidden"><small>Designed & Built by Me</small></div>
+
+    </main>
+  </div>
+  <div class="shapes">
+    <img src="img/shape1.svg" alt="" class="shape" id="shape1">
+    <img src="img/shape2.svg" alt="" class="shape" id="shape2">
+    <img src="img/shape3.svg" alt="" class="shape" id="shape3">
+    <img src="img/shape4.svg" alt="" class="shape" id="shape4">
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
