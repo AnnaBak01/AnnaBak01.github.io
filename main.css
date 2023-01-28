@@ -155,6 +155,12 @@ b {
   user-select: none;
 }
 
+
+.header {
+  margin-left: 3em;
+}
+
+
 @media (min-width: 480px) {
   .section {
     margin-top: 50vw;
@@ -167,38 +173,51 @@ b {
     top: 18vw !important;
   }
 
-  #shape2 {
-    position: absolute;
-  }
-
-  #shape3 {
-    position: absolute;
-  }
-
+  #shape2,
+  #shape3,
   #shape4 {
     position: absolute;
   }
 }
 
 @media (max-width: 850px) {
+
   #shape1 {
-    display: none;
+    top: 67vw !important;
   }
 
-  #shape2 {
-    display: none;
-  }
-
-  #shape3 {
-    display: none;
-  }
-
+  #shape2,
+  #shape3,
   #shape4 {
+    opacity: 25%;
+    position: absolute;
+  }
+
+  .email,
+  .socials,
+  #about-me {
     display: none;
   }
 
   #nav {
     font-size: 0.9rem;
+  }
+
+  #section2>div.col-3>ul {
+    padding: 0 !important;
+    /* You can also add some margins here to make it look prettier */
+    font-size: medium;
+  }
+
+  #job {
+    padding-left: 3em;
+  }
+}
+
+@media (min-width: 308px) {
+
+  .section {
+    margin-top: 60vw;
   }
 }
 
