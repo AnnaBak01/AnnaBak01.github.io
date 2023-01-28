@@ -35,7 +35,7 @@
     <header data-aos="fade-bottom">
       <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4" id="nav">
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-          <a class="me-3 py-2 text-dark text-decoration-none fw-light" href="#section1">ABOUT ME</a>
+          <a class="me-3 py-2 text-dark text-decoration-none fw-light" href="#section1" id="about-me">ABOUT ME</a>
           <a class="me-3 py-2 text-dark text-decoration-none fw-light" href="#section2">EXPERIENCE</a>
           <a class="me-3 py-2 text-dark text-decoration-none fw-light" href="#section3">PORTFOLIO</a>
           <a class="me-3 py-2 text-dark text-decoration-none pink" href="#section4"><b>CONTACT</b></a>
@@ -47,18 +47,18 @@
 
       <div class="header hidden">
         <span class="pink">- H e l l o -</span>
-        <h1 class="display-4 ">My name is <span class="fw-normal display-3">Anna Bąk</span></h1>
+        <h1 class="display-4 name">My name is <span class="fw-normal display-3 name">Anna Bąk</span></h1>
         <span>I am a graphic designer and front-end developer. Currently studying law combined with IT in
           Warsaw.</span>
       </div>
     </header>
 
     <main>
-      <div class="container hidden" id="section1" data-aos="slide-up">
-        <div class="row section">
-          <div class="col-5 d-flex align-items-center"><img src="img/portrait.png" width="100%">
+      <div class="container hidden section" id="section1" data-aos="slide-up">
+        <div class="row">
+          <div class="col-md-5 col-xs-12 d-flex align-items-center"><img src="img/portrait.png" width="100%">
           </div>
-          <div class="col-7">
+          <div class="col-md-7 col-xs-12 ">
             <p class="display-6">ABOUT ME</p><span>Hi! <b>My name is Anna</b>, I am 21 years old and I love
               creating
               things that live on the internet. My interest in web development started back in
@@ -101,7 +101,7 @@
               <li onclick="competitions()" id="competitions" class="">Competitions</li>
             </ul>
           </div>
-          <div class="col-9">
+          <div class="col-9" id="job">
             <p id="year-company" class="h4 hidden"><b>2019:</b> ArkonSoft sp. z o.o.</p>
             <p id="position" class="text-muted hidden">Intern</p>
             <div id="decription-work" class="hidden">
@@ -133,7 +133,7 @@
         </div>
       </div>
       <div class="col-6">
-        <img src="img/Katalog.jpg" alt="graphic example" class="my-2 portfolio-element" onmouseover="photoChange(this)"
+        <img src="img/katalog.jpg" alt="graphic example" class="my-2 portfolio-element" onmouseover="photoChange(this)"
           onmouseout="photoBack(this)">
         <img src="img/img.jpg" alt="graphic example" class="my-2 portfolio-element" onmouseover="photoChange(this)"
           onmouseout="photoBack(this)">
