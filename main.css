@@ -161,6 +161,47 @@ b {
   }
 }
 
+@media (max-width: 1050px) {
+  #shape1 {
+    position: absolute;
+    top: 18vw !important;
+  }
+
+  #shape2 {
+    position: absolute;
+  }
+
+  #shape3 {
+    position: absolute;
+  }
+
+  #shape4 {
+    position: absolute;
+  }
+}
+
+@media (max-width: 850px) {
+  #shape1 {
+    display: none;
+  }
+
+  #shape2 {
+    display: none;
+  }
+
+  #shape3 {
+    display: none;
+  }
+
+  #shape4 {
+    display: none;
+  }
+
+  #nav {
+    font-size: 0.9rem;
+  }
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
