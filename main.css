@@ -219,6 +219,14 @@ b {
   .section {
     margin-top: 60vw;
   }
+
+  h1 {
+    font-size: 4rem !important;
+  }
+
+  .header {
+    margin-left: 1em !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -285,14 +293,6 @@ b {
   left: 10vw;
   height: 40vw;
   z-index: -2;
-}
-
-.display-4 {
-  font-size: calc(5.5rem + 2.7vw);
-}
-
-.display-3 {
-  font-size: calc(4rem + 3.3vw);
 }
 
 .hidden {
