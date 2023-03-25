@@ -144,8 +144,10 @@ b {
 
 .header {
   max-width: 700px;
-  margin-top: 5em;
+  margin-top: 10em;
+  margin-left: 3em;
 }
+
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -154,12 +156,6 @@ b {
   -moz-user-select: none;
   user-select: none;
 }
-
-
-.header {
-  margin-left: 3em;
-}
-
 
 @media (min-width: 480px) {
   .section {
@@ -205,7 +201,6 @@ b {
 
   #section2>div.col-3>ul {
     padding: 0 !important;
-    /* You can also add some margins here to make it look prettier */
     font-size: medium;
   }
 
